@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &305356446649528994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8235998614530077747}
+  - component: {fileID: 8048515121562337322}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8235998614530077747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305356446649528994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4115512, y: 1.807665, z: -9.093399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8048515121562337322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305356446649528994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4365bd644392a034f8cf8e6f6205964a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: S0
+    clip: {fileID: 8300000, guid: 137bd0d45872d6d4492489a4009af7aa, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: S1
+    clip: {fileID: 8300000, guid: 42f9cefe6158186498b5bd071f15a578, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: S2
+    clip: {fileID: 8300000, guid: a135983740ccd5a4190794bb82a7e66a, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: S3
+    clip: {fileID: 8300000, guid: 876a845fbb5b5c14f85f08df12d511c0, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Adiashort
+    clip: {fileID: 8300000, guid: f17102f686c3cd641aa396488d07b10f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Adialong
+    clip: {fileID: 8300000, guid: 9348a444a165087449fe0b2df85bcb1b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dopen
+    clip: {fileID: 8300000, guid: faf4231efe7724f49a8973448eafa6ad, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: error
+    clip: {fileID: 8300000, guid: b9a805ff15f3cc34ea6578d627ff7774, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: obtained
+    clip: {fileID: 8300000, guid: 2663dee9dc01cc749a9e5e76b9788f48, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: 525658abc4042774fbe9199842c3ef1f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: back
+    clip: {fileID: 8300000, guid: ca42d1540ed301f4c8446e14239e4fe1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: scroll
+    clip: {fileID: 8300000, guid: 9de613d9eef39164b929b1f60021d6c2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: select
+    clip: {fileID: 8300000, guid: 48a5a3e24ce74654bb35cbbb4986d4a0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NPCdialong
+    clip: {fileID: 8300000, guid: c7d4fe2139ab14044b4c714ca8b7c336, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: NPCdiashort
+    clip: {fileID: 8300000, guid: 44217714dbd588249a7679fb8db6a099, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ndialong
+    clip: {fileID: 8300000, guid: c2a11c6b6144b004a8f0478d9ad53533, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ndiashort
+    clip: {fileID: 8300000, guid: 346839cabc78d604cababd0927c7fcd3, type: 3}
+    volume: 1
+    pitch: 0.31
+    loop: 0
+    source: {fileID: 0}
+  - name: splash
+    clip: {fileID: 8300000, guid: f5eec0aa5175e9c4eab734f5b2252f29, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: wind
+    clip: {fileID: 8300000, guid: 32b0c7cb5ef70334fb6e3b5079acaa5a, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: flap1
+    clip: {fileID: 8300000, guid: 26c6ccf397d7f9549adbca25c2c172fe, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: flap2
+    clip: {fileID: 8300000, guid: 1bdbdd983875c0d4e90ef8a829e76299, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: flap3
+    clip: {fileID: 8300000, guid: 93f0850b9e8a6844f9a33f04c27e995a, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: flap4
+    clip: {fileID: 8300000, guid: 0ca53f07d415b2c4ebbe013daafad8ec, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: takeoff
+    clip: {fileID: 8300000, guid: 14cbc93ff023c1f4fb224c66fa2e124f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: step
+    clip: {fileID: 8300000, guid: 8ea216e637303ef40b9fd201f305a272, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: credit
+    clip: {fileID: 8300000, guid: b0879a8fa3597c948a1b2b2c7e078e18, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
